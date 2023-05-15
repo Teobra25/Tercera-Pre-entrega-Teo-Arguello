@@ -1,0 +1,48 @@
+.galery{
+    width: 100%;
+    height: 780px;
+    color: white;
+    text-align: start;
+    font-size: 20px;
+    background-color: black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,250px);
+}
+.item{
+    height: 250px;
+    border: 2px solid rgb(4, 0, 0);
+    background-color: bisque;
+    background-position: center;
+    background-size: cover;
+    filter: sepia(100%);
+}
+.item:hover{
+    filter: sepia(0%);
+    transition: 1.2s;
+}
+.item1{
+    background-image: url(/Multimedia/barcelona-2023-cerundolo-mierc\ \(1\).jpg);
+    grid-row: 1/5;
+    grid-column: 1/4;
+    height: 750px;
+}
+.item2{
+    background-image: url(/Multimedia/Baez_RG22_\(6\)_\(52144105338\).jpg);
+    grid-row: 1/2;
+    grid-column: 3/4;
+    background-position: top;
+}
+.item3{
+    background-image:  url(/Multimedia/schwartzman.jpg);
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-position: top;
+}
+.item4{
+    background-image:  url(/Multimedia/etcheverry.jpg);
+    grid-row: 3/4;
+    grid-column: 3/4;
+    background-position: top;
+}
