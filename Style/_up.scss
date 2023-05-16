@@ -1,9 +1,11 @@
+$fifty: 50px;
+
 .up{
-    height: 50px;
-    width: 50px;
+    height: $fifty;
+    width: $fifty;
     position: fixed;
-    right: 50px; 
-    bottom: 50px; 
+    right: $fifty; 
+    bottom: $fifty; 
     background-color: orange;
     color: black;
     text-align: center;
